@@ -241,6 +241,9 @@ fieldset {
     background-size: cover;
     z-index: 1;
 }
+.service-area-white{
+    background-color: white;
+}
 .image-anton{
     width: 400px;
     height: 400px;
