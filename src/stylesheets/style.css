@@ -241,6 +241,20 @@ fieldset {
     background-size: cover;
     z-index: 1;
 }
+.image-anton{
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-image: url("../assets/IMG_0706.png");
+}
+.image-bulat{
+    width: 400px;
+    height: 400px;
+    float: right;
+    background-size: cover;
+    background-image: url(../assets/bulat.png);
+}
+
 
 .welcome-image-area:after {
     position: absolute;
@@ -517,7 +531,9 @@ strong.text-rotator span {
 
 .about-image {}
 
-.about-text {}
+.about-text {
+    margin-top: 70px;
+}
 
 .about-text h2 {
     font-size: 30px;
