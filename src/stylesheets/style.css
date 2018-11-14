@@ -237,7 +237,7 @@ fieldset {
 .welcome-image-area {
     position: relative;
     height: 100%;
-    background: url(http://wordpressboss.com/wb/nista-demo/assets/images/bg/bg.jpg);
+    background: url(https://images.unsplash.com/photo-1526925539332-aa3b66e35444?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7d57c801c843337d87cd712c371a54fd&auto=format&fit=crop&w=1001&q=80fontawesome);
     background-size: cover;
     z-index: 1;
 }
