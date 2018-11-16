@@ -236,18 +236,63 @@ fieldset {
 .welcome-image-area {
   position: relative;
   height: 100%;
-  background: url(/src/images/bg/bg.jpg);
+  background: url(../images/bg/bg.jpg);
   background-size: cover;
   z-index: 1;
 }
 .service-area-white {
   background-color: white;
 }
+.dot-1 {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background-color: #ffd504;
+    border-radius: 50%;
+    display: inline-block;
+    left: -90px;
+}
+.dot-2 {
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    background-color: #ffd504;
+    border-radius: 50%;
+    display: inline-block;
+    right: -60px;
+}
+.dot-3 {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border: 40px solid #ffd504;
+    border-radius: 50%;
+    display: inline-block;
+    right: 0;
+}
+.dot-4 {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border: 40px solid #ffd504;
+    border-radius: 50%;
+    display: inline-block;
+    left: -200px;
+}
+.dot-5 {
+    position: absolute;
+    height: 900px;
+    width: 900px;
+    background-color: #ffd504;
+    border-radius: 50%;
+    display: inline-block;
+    left: 200px;
+}
 .image-anton {
   width: 400px;
   height: 400px;
   background-size: cover;
-  background-image: url("../assets/IMG_0706.png");
+  background-image: url("../assets/anton.png");
 }
 .image-bulat {
   width: 400px;
@@ -255,6 +300,19 @@ fieldset {
   float: right;
   background-size: cover;
   background-image: url(../assets/bulat.png);
+}
+.image-rinatH {
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  background-image: url("../assets/rinatH.png");
+}
+.image-rinatG {
+  width: 400px;
+  height: 400px;
+  float: right;
+  background-size: cover;
+  background-image: url(../assets/rinatG.png);
 }
 
 .welcome-image-area:after {
